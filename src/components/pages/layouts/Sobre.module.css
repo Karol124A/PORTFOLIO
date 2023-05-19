@@ -1,0 +1,106 @@
+#container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo {
+    margin-top: 15%;
+}
+
+.tituloSobre {
+    font-size: 50px;
+    margin-left: 130px;
+    color:  #E14594;
+    animation: changeColor 10s infinite;
+}
+
+@keyframes changeColor {
+    0% { color: #E14594; }
+    50% { color: #6930C3; }
+    100% { color: #00ff33; }
+}
+
+hr {
+    width: 80%;
+}
+
+.btnSobreMim {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.btnCurriculo {
+    background: #6830c3d6;
+    font-size: 19px;
+    height: auto;
+    width: 200px;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 14px;
+    margin-right: 50px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    transition:  0.2s ease-out;
+}
+
+.btnCurriculo:hover{
+    border: solid 3px #6930C3 ;
+    background-color: #64dfdf00;
+    box-shadow: 0 0 100px #64DFDF;
+    transition:  0.3s ease-out;
+}
+
+.bloco {
+    width: 80%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    text-align: justify;
+    border: solid 3px #E14594;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.myPhoto {
+    margin-top: 100px;
+    height: 35%;
+    width: 35%;
+    border-radius: 100%;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #64dfdfc6;
+    height: 210px;
+    width: 80px;
+    position: fixed;
+    border-top-right-radius: 10px;
+    bottom: 0;
+    z-index: 4;
+}
+
+.github {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 20px;
+}
+
+.insta {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 20px;
+}
+
+.linkedin {
+    height: 45px;
+    width: 45px;
+}

@@ -1,0 +1,20 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #252525;
+}
+
+h1, p, h3, h2, h4, button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+button {
+  font-weight: bold;
+}
+
+body {
+  margin: 0px;
+}
+

@@ -1,0 +1,410 @@
+#corpo {
+    margin-left: 130px;
+    margin-bottom: 100px;
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.titulo {
+    margin-top: 13%;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hab1 {
+    text-align: center;
+    border-radius: 15px;
+    margin-right: 70px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    border: solid 3px #F16529;
+}
+
+.hab1:hover {
+    box-shadow: 10px 10px 60px #F16529;
+    background-color: #f16529d9;
+}
+
+.hab2:hover {
+    box-shadow: 2px 2px 60px #33AADD;
+    background-color: #33AADDd9;
+}
+
+.hab3:hover {
+    box-shadow: 10px 10px 60px #ffffff;
+    background-color: #ffffffa7;
+}
+
+.hab4:hover {
+    box-shadow: 10px 10px 60px #6181B6;
+    background-color: #6181B6d9;
+}
+
+.hab5:hover {
+    box-shadow: 10px 10px 60px #00bcf2;
+}
+
+.hab6:hover {
+    box-shadow: 10px 10px 60px #E76F00;
+    background-color: #e7700084;
+}
+
+.hab2 {
+    text-align: center;
+    margin-right: 70px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 3px #33AADD;
+}
+
+.hab3 {
+    text-align: center;
+    margin-right: 70px;
+    border-radius: 15px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 3px #ffffff;
+}
+
+.hab4 {
+    text-align: center;
+    margin-right: 70px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 3px #6181B6;
+}
+
+.hab5 {
+    text-align: center;
+    margin-right: 70px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 3px #00bcf2;
+}
+
+.hab6 {
+    text-align: center;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #E76F00;
+}
+
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.netflix {
+    border-radius: 20px;
+    transition:  0.6s ease-out;
+}
+
+.netflix:hover {
+    height: 220px;
+    width: 350px;
+    transition:  0.6s ease-out;
+}
+
+.proj1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.turismo {
+    border-radius: 20px;
+}
+
+.turismo:hover {
+    height: 220px;
+    width: 350px;
+    transition:  0.6s ease-out;
+}
+
+.proj2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.locacao{
+    border-radius: 20px;
+    transition:  0.6s ease-out;
+
+}
+
+.locacao:hover {
+    height: 220px;
+    width: 350px;
+    transition:  0.6s ease-out;
+}
+
+.proj3 {
+    padding: 20px;
+    text-align: center;
+}
+
+.confeitaria {
+    border-radius: 20px;
+    transition:  0.6s ease-out;
+
+}
+
+.confeitaria:hover {
+    height: 220px;
+    width: 350px;
+    transition:  0.6s ease-out;
+}
+
+.proj4 {
+    padding: 20px;
+    text-align: center;
+}
+
+.dadosPaises{
+    border-radius: 20px;
+    transition:  0.6s ease-out;
+
+}
+
+.dadosPaises:hover {
+    height: 220px;
+    width: 350px;
+    transition:  0.6s ease-out;
+}
+
+.proj5 {
+    padding: 20px;
+    text-align: center;
+}
+
+.nome{
+    border-radius: 20px;
+    transition:  0.6s ease-out;
+
+}
+
+.nome:hover {
+    height: 220px;
+    width: 350px;
+    transition:  0.6s ease-out;
+}
+
+.proj6 {
+    padding: 20px;
+    text-align: center;
+}
+
+.convite{
+    border-radius: 20px;
+    transition:  0.6s ease-out;
+
+}
+
+.convite:hover {
+    height: 220px;
+    width: 350px;
+    transition:  0.6s ease-out;
+}
+
+.proj7 {
+    padding: 20px;
+    text-align: center;
+}
+
+.buttonGitHub {
+    background: #6930C3;
+    height: auto;
+    width: 300px;
+    padding: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 14px;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    transition:  0.2s ease-out;
+}
+
+.buttonGitHub:hover{
+    border: solid 3px #6930C3 ;
+    background-color: #64dfdf00;
+    box-shadow: 0 0 100px #64DFDF;
+    transition:  0.3s ease-out;
+}
+
+.btnGit {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.estudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ling1 {
+    text-align: center;
+    margin-right: 70px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #F7DF1E;
+}
+
+.ling2 {
+    text-align: center;
+    margin-right: 70px;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #00D8FF;
+}
+
+.ling3 {
+    text-align: center;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px #00d8ff;
+}
+
+.ling1:hover {
+    box-shadow: 10px 10px 60px #F7DF1E;
+    background-color: #f7de1ee8;
+}
+
+.ling2:hover {
+    box-shadow: 10px 10px 60px #00D8FF;
+}
+
+.ling3:hover {
+    box-shadow: 10px 10px 60px #00D8FF;
+}
+
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #64dfdfc6;
+    height: 210px;
+    width: 80px;
+    position: fixed;
+    border-top-right-radius: 10px;
+    bottom: 0;
+    z-index: 4;
+}
+
+.github {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 20px;
+}
+
+.insta {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 20px;
+}
+
+.linkedin {
+    height: 45px;
+    width: 45px;
+}
+
+h1 {
+    color:  #E14594;
+    font-weight: 'bold';
+    font-size: 45px;
+    animation: changeColor 10s infinite;
+}
+
+@keyframes changeColor {
+    0% { color: #E14594; }
+    50% { color: #6930C3; }
+    100% { color: #00ff33; }
+}

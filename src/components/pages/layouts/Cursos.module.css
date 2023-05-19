@@ -1,0 +1,149 @@
+#corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 80%;
+    height: auto;
+}
+
+.titulo {
+    margin-top: 15%;
+    margin-left: 160px;
+}
+
+p {
+    text-align: center;
+}
+
+.conjuntoBot {
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.desc {
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    border: solid 3px #ffffff87;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h2 {
+    color: #64DFDF;
+}
+
+.bloquinho {
+    border-radius: 10px;
+}
+
+.buttonDev {
+    background: #E14594;
+    height: auto;
+    width: 280px;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 14px;
+    font-size: 14.5px;
+    transition:  0.6s ease-out;
+    margin: 10px;
+}
+
+.buttonDev:hover {
+    width: 300px;
+    transition:  0.6s ease-out;
+}
+
+.buttonEnglish {
+    background: #E14594;
+    height: auto;
+    width: 280px;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 14px;
+    font-size: 14.5px;
+    transition:  0.6s ease-out;
+    margin: 10px;
+}
+
+.buttonEnglish:hover {
+    width: 300px;
+    transition:  0.6s ease-out;
+}
+
+.buttonAps {
+    background: #E14594;
+    height: auto;
+    width: 280px;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 14px;
+    font-size: 14.5px;
+    transition:  0.6s ease-out;
+    margin: 10px;
+}
+
+.buttonAps:hover {
+    width: 300px;
+    transition:  0.6s ease-out;
+}
+
+.buttonInfo {
+    background: #E14594;
+    height: auto;
+    width: 280px;
+    padding: 14px;
+    text-align: center;
+    border: none;
+    border-radius: 14px;
+    font-size: 14.5px;
+    transition:  0.6s ease-out;
+    margin: 10px;
+}
+
+.buttonInfo:hover {
+    width: 300px;
+    transition:  0.6s ease-out;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #64dfdfc6;
+    height: 210px;
+    width: 80px;
+    position: fixed;
+    border-top-right-radius: 10px;
+    bottom: 0;
+    z-index: 4;
+}
+
+.github {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 20px;
+}
+
+.insta {
+    height: 35px;
+    width: 35px;
+    padding-bottom: 20px;
+}
+
+.linkedin {
+    height: 45px;
+    width: 45px;
+}

@@ -1,0 +1,63 @@
+.menu ul li a {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 20px;
+    font-weight: bold;
+    color: #64DFDF;
+}
+
+.menu ul li a:hover {
+    background-image: linear-gradient(to bottom, #E14594, #6930C3, #64DFDF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu nav {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.menu header {
+    display: flex;
+    justify-content: center;
+    background-color: #252525;
+    position: fixed;
+    z-index: 10;
+    margin: 0;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+.menu img {
+    margin-left: 30px;
+}
+
+@font-face {
+    font-family: 'Quaker';
+    src: url('public/fonts/Quaker FREE.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.logo {
+    margin: 0%;
+    margin-left: 15px;
+    font-family: 'Quaker', Times, serif;
+    font-weight: normal;
+    background-image: linear-gradient(to bottom, #E14594, #6930C3, #64DFDF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 90px;
+}
